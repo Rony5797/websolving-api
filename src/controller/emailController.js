@@ -3,15 +3,16 @@ var nodemailer = require("nodemailer");
 
 exports.SendEmailUtility = async (EmailTo, EmailText, EmailSubject) => {
   let transporter = nodemailer.createTransport({
+    service: "gamil"
     host: "smtp.gmail.com",
     port: 587,
     secure: false,
     auth: { user: "patengaonline14no@gmail.com", pass: "online0099" },
-    tls: { rejectUnauthorized: false },
+    
   });
 
   let mailOptions = {
-    from: "websolvings<info@teamrabbil.com>",
+    from: "websolvings<patengaonline14no@gmail.com>",
     to: EmailTo,
     subject: EmailSubject,
     text: EmailText,
