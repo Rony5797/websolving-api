@@ -3,11 +3,11 @@ var nodemailer = require("nodemailer");
 
 exports.SendEmailUtility = async (EmailTo, EmailText, EmailSubject) => {
   let transporter = nodemailer.createTransport({
-    service: "gamil"
+    service: "gamil",
     host: "smtp.gmail.com",
     port: 587,
     secure: false,
-    auth: { user: "patengaonline14no@gmail.com", pass: "online0099" },
+    auth: { user: "patengaonline14no@gmail.com", pass: "etgc lqea qrmr qlf" },
     
   });
 
