@@ -7,12 +7,12 @@ exports.SendEmailUtility = async (EmailTo, EmailText, EmailSubject) => {
     host: "smtp.gmail.com",
     port: 587,
     secure: false,
-    auth: { user: "patengaonline14no@gmail.com", pass: "etgc lqea qrmr qlf" },
+    auth: { user: "rooneyhossain@gmail.com", pass: "twpq lwkp vyys bimu" },
     
   });
 
   let mailOptions = {
-    from: "websolvings<patengaonline14no@gmail.com>",
+    from: "websolvings<rooneyhossain@gmail.com>",
     to: EmailTo,
     subject: EmailSubject,
     text: EmailText,
